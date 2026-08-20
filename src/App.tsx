@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import { Layout } from './components/Layout'
 import Hoy from './pages/Hoy'
 import Modos from './pages/Modos'
@@ -23,7 +23,7 @@ import Mas from './pages/Mas'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Hoy />} />
@@ -48,6 +48,6 @@ export default function App() {
           <Route path="/mas" element={<Mas />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
