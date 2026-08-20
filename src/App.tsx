@@ -20,6 +20,7 @@ import Capital from './pages/Capital'
 import Delegacion from './pages/Delegacion'
 import Cierre from './pages/Cierre'
 import Mas from './pages/Mas'
+import Respaldo from './pages/Respaldo'
 
 export default function App() {
   return (
@@ -46,6 +47,7 @@ export default function App() {
           <Route path="/delegacion" element={<Delegacion />} />
           <Route path="/cierre" element={<Cierre />} />
           <Route path="/mas" element={<Mas />} />
+          <Route path="/respaldo" element={<Respaldo />} />
         </Route>
       </Routes>
     </HashRouter>

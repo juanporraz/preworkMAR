@@ -10,6 +10,7 @@ const ITEMS = [
   { to: '/capital', icon: '🏦', label: 'Capital', desc: 'Acumulado, reservas, disponible' },
   { to: '/delegacion', icon: '👤', label: 'Delegación', desc: 'Condiciones para delegar' },
   { to: '/cierre', icon: '🌙', label: 'Cierre del día', desc: 'Guía paso a paso' },
+  { to: '/respaldo', icon: '💾', label: 'Respaldo', desc: 'Exporta o restaura tu información' },
 ]
 
 export default function Mas() {
