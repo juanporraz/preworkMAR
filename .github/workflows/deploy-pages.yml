@@ -1,8 +1,6 @@
 name: Publicar en GitHub Pages
 
 on:
-  push:
-    branches: [claude/si-podia-app-red4y3]
   workflow_dispatch:
 
 permissions:
